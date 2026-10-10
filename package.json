@@ -1,13 +1,13 @@
 {
-  "name": "ERFAN-MD",
-  "version": "1.4.0",
-  "description": "Jawad WhatsApp Bot",
+  "name": "naveed-md-mini",
+  "version": "2.0.0",
+  "description": "Naveed Md Mini - WhatsApp Bot by Naveed Ahmed",
   "main": "index.js",
   "scripts": {
     "start": "node --expose-gc index.js",
-    "start:pm2": "pm2 start index.js --node-args='--expose-gc' --deep-monitoring --name ERFAN-MD",
-    "stop": "pm2 stop ERFAN-MD",
-    "restart": "pm2 restart ERFAN-MD",
+    "start:pm2": "pm2 start index.js --node-args='--expose-gc' --deep-monitoring --name naveed-md-mini",
+    "stop": "pm2 stop naveed-md-mini",
+    "restart": "pm2 restart naveed-md-mini",
     "dev": "nodemon index.js"
   },
   "dependencies": {
